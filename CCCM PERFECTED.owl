@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:cccm="http://www.semanticweb.org/cccm#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_2">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">157507.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">144424.17</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Kiran_Desai">
+        <cccm:fullName>Kiran Desai</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_KiranDesai_97"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy>
+      <cccm:FinTech rdf:about="http://www.semanticweb.org/cccm#Paytm">
+        <cccm:bankName>Paytm</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+      </cccm:FinTech>
+    </cccm:processedBy>
+    <cccm:fromCurrency>
+      <cccm:Currency rdf:about="http://www.semanticweb.org/cccm#USD">
+        <cccm:isoCode>USD</cccm:isoCode>
+        <cccm:symbol>$</cccm:symbol>
+      </cccm:Currency>
+    </cccm:fromCurrency>
+    <cccm:toCurrency>
+      <cccm:Currency rdf:about="http://www.semanticweb.org/cccm#AUD">
+        <cccm:isoCode>AUD</cccm:isoCode>
+        <cccm:symbol>$</cccm:symbol>
+      </cccm:Currency>
+    </cccm:toCurrency>
+    <cccm:hasStatus>
+      <cccm:Status rdf:about="http://www.semanticweb.org/cccm#Status_Failed">
+        <cccm:status>Failed</cccm:status>
+      </cccm:Status>
+    </cccm:hasStatus>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_7">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.93</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Txn_008">
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Alice_Wonder">
+        <cccm:fullName>Alice Wonder</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_Alice_Wonder_1"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_Alice_Wonder_2"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:fromCurrency>
+      <cccm:Currency rdf:about="http://www.semanticweb.org/cccm#GBP">
+        <cccm:isoCode>GBP</cccm:isoCode>
+        <cccm:symbol>£</cccm:symbol>
+      </cccm:Currency>
+    </cccm:fromCurrency>
+    <cccm:toCurrency>
+      <cccm:Currency rdf:about="http://www.semanticweb.org/cccm#INR">
+        <cccm:isoCode>INR</cccm:isoCode>
+        <cccm:symbol>₹</cccm:symbol>
+      </cccm:Currency>
+    </cccm:toCurrency>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">290.00</cccm:amountReceived>
+    <cccm:processedBy>
+      <cccm:FinTech rdf:about="http://www.semanticweb.org/cccm#Wise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cccm#DigitalWallet"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/cccm#PaymentGateway"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/cccm#ForexExchange"/>
+        <cccm:bankName>Wise</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+      </cccm:FinTech>
+    </cccm:processedBy>
+    <cccm:hasStatus>
+      <cccm:Status rdf:about="http://www.semanticweb.org/cccm#Status_Completed">
+        <cccm:status>Completed</cccm:status>
+      </cccm:Status>
+    </cccm:hasStatus>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_USD_INR">
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">83.20</cccm:rateValue>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Remittance>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_19">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">145667.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">136951.98</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Karthik_Shetty">
+        <cccm:fullName>Karthik Shetty</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#USA"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_KarthikShetty_24"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy>
+      <cccm:Bank rdf:about="http://www.semanticweb.org/cccm#Barclays">
+        <cccm:bankName>Barclays Bank</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+      </cccm:Bank>
+    </cccm:processedBy>
+    <cccm:fromCurrency>
+      <cccm:Currency rdf:about="http://www.semanticweb.org/cccm#JPY">
+        <cccm:isoCode>JPY</cccm:isoCode>
+        <cccm:symbol>¥</cccm:symbol>
+      </cccm:Currency>
+    </cccm:fromCurrency>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_2">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.514</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_5">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">192224.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">178083.46</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Ashok_Patil">
+        <cccm:fullName>Ashok Patil</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_AshokPatil_98"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_AshokPatil_99"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy>
+      <cccm:Bank rdf:about="http://www.semanticweb.org/cccm#ICICI_Bank">
+        <cccm:bankName>ICICI Bank</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+      </cccm:Bank>
+    </cccm:processedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_2"/>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_18">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11793.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11581.22</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Veena_Rao">
+        <cccm:fullName>Veena Rao</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_VeenaRao_71"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy>
+      <cccm:FinTech rdf:about="http://www.semanticweb.org/cccm#PhonePe">
+        <cccm:bankName>PhonePe</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+      </cccm:FinTech>
+    </cccm:processedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Failed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_9">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.894</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_7">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">448521.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">417124.53</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Zoya_Ansari">
+        <cccm:fullName>Zoya Ansari</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_ZoyaAnsari_76"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_9"/>
+  </cccm:Remittance>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Anil_Kumble">
+    <cccm:fullName>Anil Kumble</cccm:fullName>
+    <cccm:basedIn>
+      <cccm:Country rdf:about="http://www.semanticweb.org/cccm#India">
+        <cccm:countryName>India</cccm:countryName>
+        <cccm:usesCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+      </cccm:Country>
+    </cccm:basedIn>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AnilKumble_93">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">111844.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AnilKumble_94">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">103364.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_2">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">38683.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35975.19</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Siddharth_Nair">
+        <cccm:fullName>Siddharth Nair</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_SiddharthNair_10"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_SiddharthNair_11"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Wise"/>
+    <cccm:fromCurrency>
+      <cccm:Currency rdf:about="http://www.semanticweb.org/cccm#EUR">
+        <cccm:isoCode>EUR</cccm:isoCode>
+        <cccm:symbol>€</cccm:symbol>
+      </cccm:Currency>
+    </cccm:fromCurrency>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_1">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.888</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Remittance>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_6">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">82741.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75699.02</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Haritha_Nair">
+        <cccm:fullName>Haritha Nair</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_HarithaNair_64"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_HarithaNair_65"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy>
+      <cccm:FinTech rdf:about="http://www.semanticweb.org/cccm#Razorpay">
+        <cccm:bankName>Razorpay</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+      </cccm:FinTech>
+    </cccm:processedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_5">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.8</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Txn_009">
+    <rdf:type rdf:resource="http://www.semanticweb.org/cccm#HighValueTransaction"/>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Amit_Patel">
+        <cccm:fullName>Amit Patel</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_Amit_Patel_1"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_Amit_Patel_2"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8000.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75.00</cccm:amountReceived>
+    <cccm:processedBy>
+      <cccm:Bank rdf:about="http://www.semanticweb.org/cccm#HDFC">
+        <cccm:bankName>HDFC Bank</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+      </cccm:Bank>
+    </cccm:processedBy>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_GBP_EUR">
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.16</cccm:rateValue>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Remittance>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_12">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">191482.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">181958.71</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Aditi_Kulkarni">
+        <cccm:fullName>Aditi Kulkarni</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_AditiKulkarni_32"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_AditiKulkarni_33"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:hasStatus>
+      <cccm:Status rdf:about="http://www.semanticweb.org/cccm#Status_Pending">
+        <cccm:status>Pending</cccm:status>
+      </cccm:Status>
+    </cccm:hasStatus>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_8">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.561</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_21">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180390.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">171403.07</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Simran_Kaur">
+        <cccm:fullName>Simran Kaur</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_SimranKaur_49"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy>
+      <cccm:Bank rdf:about="http://www.semanticweb.org/cccm#Chase">
+        <cccm:bankName>Chase Bank</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#USA"/>
+      </cccm:Bank>
+    </cccm:processedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Failed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_6">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.992</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#heldAt">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Account"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Institution"/>
+  </owl:ObjectProperty>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Usha_Menon">
+    <cccm:fullName>Usha Menon</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_UshaMenon_106">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">96638.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_11">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28907.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28068.06</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Varun_Kapoor">
+        <cccm:fullName>Varun Kapoor</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_VarunKapoor_14"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Wise"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_USD_USD">
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</cccm:rateValue>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_001">
+    <cccm:initiatedBy rdf:resource="http://www.semanticweb.org/cccm#Alice_Wonder"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">495.00</cccm:amountReceived>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Barclays"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_GBP_EUR"/>
+  </cccm:Transaction>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Aniket_Joshi">
+    <cccm:fullName>Aniket Joshi</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AniketJoshi_15">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">106065.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Lokesh_Reddy">
+    <cccm:fullName>Lokesh Reddy</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_LokeshReddy_63">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69960.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Farhan_Khan">
+    <cccm:fullName>Farhan Khan</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_FarhanKhan_73">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">183388.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_23">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">128764.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122377.76</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Priya_Nair">
+        <cccm:fullName>Priya Nair</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_PriyaNair_26"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_8"/>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_002">
+    <rdf:type rdf:resource="http://www.semanticweb.org/cccm#HighValueTransaction"/>
+    <cccm:initiatedBy rdf:resource="http://www.semanticweb.org/cccm#Amit_Patel"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">119.00</cccm:amountReceived>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_USD_INR"/>
+  </cccm:Transaction>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Sameer_Kulkarni">
+    <cccm:fullName>Sameer Kulkarni</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SameerKulkarni_17">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">128293.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SameerKulkarni_18">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100152.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Tara_Krishnan">
+    <cccm:fullName>Tara Krishnan</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_TaraKrishnan_82">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">71368.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Radha_Srinivasan">
+    <cccm:fullName>Radha Srinivasan</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RadhaSrinivasan_102">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13170.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RadhaSrinivasan_103">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24922.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Vivek_Mahajan">
+    <cccm:fullName>Vivek Mahajan</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_VivekMahajan_54">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160273.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_VivekMahajan_55">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41886.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Deepak_Kulkarni">
+    <cccm:fullName>Deepak Kulkarni</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_DeepakKulkarni_56">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90875.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_DeepakKulkarni_57">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92691.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_004">
+    <rdf:type rdf:resource="http://www.semanticweb.org/cccm#LowValueTransaction"/>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Emma_Watson">
+        <cccm:fullName>Emma Watson</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_Emma_Watson"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70.00</cccm:amountReceived>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Wise"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_USD_USD"/>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_16">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">191465.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">185374.0</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Ananya_Kapoor">
+        <cccm:fullName>Ananya Kapoor</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_AnanyaKapoor_27"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Chase"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_2"/>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_24">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">151810.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">147114.51</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Armaan_Qureshi">
+        <cccm:fullName>Armaan Qureshi</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_ArmaanQureshi_80"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_ArmaanQureshi_81"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy>
+      <cccm:FinTech rdf:about="http://www.semanticweb.org/cccm#PayPal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cccm#DigitalWallet"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/cccm#PaymentGateway"/>
+        <cccm:bankName>PayPal</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#USA"/>
+      </cccm:FinTech>
+    </cccm:processedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_7"/>
+  </cccm:Transaction>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Deepti_Agarwal">
+    <cccm:fullName>Deepti Agarwal</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_DeeptiAgarwal_52">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12494.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Sneha_Patel">
+    <cccm:fullName>Sneha Patel</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SnehaPatel_43">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34430.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#hasStatus">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Status"/>
+  </owl:ObjectProperty>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Txn_010">
+    <rdf:type rdf:resource="http://www.semanticweb.org/cccm#LowValueTransaction"/>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Karl_German">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cccm#CorporateCustomer"/>
+        <cccm:fullName>Karl German</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#Germany"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_Karl_German"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">118.00</cccm:amountReceived>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Wise"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_USD_USD"/>
+  </cccm:Remittance>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Chitra_Nair">
+    <cccm:fullName>Chitra Nair</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ChitraNair_100">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">99989.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ChitraNair_101">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">129840.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Suresh_Raina">
+    <cccm:fullName>Suresh Raina</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SureshRaina_90">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17085.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SureshRaina_91">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18638.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#isoCode">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Currency"/>
+  </owl:DatatypeProperty>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_25">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">99122.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">88163.95</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Kavya_Menon">
+        <cccm:fullName>Kavya Menon</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_KavyaMenon_30"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_KavyaMenon_31"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Failed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_10">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.541</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_1">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6777.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6035.15</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Imran_Ali">
+        <cccm:fullName>Imran Ali</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_ImranAli_74"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_ImranAli_75"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_GBP_EUR"/>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_14">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">196342.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">191300.77</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Pooja_Mishra">
+        <cccm:fullName>Pooja Mishra</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_PoojaMishra_37"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_PoojaMishra_38"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy>
+      <cccm:Bank rdf:about="http://www.semanticweb.org/cccm#HSBC">
+        <cccm:bankName>HSBC Bank</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+      </cccm:Bank>
+    </cccm:processedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_GBP_EUR"/>
+  </cccm:Transaction>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#rateValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Rate"/>
+  </owl:DatatypeProperty>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Sanjay_Deshmukh">
+    <cccm:fullName>Sanjay Deshmukh</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SanjayDeshmukh_53">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">129987.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Jyoti_Verma">
+    <cccm:fullName>Jyoti Verma</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_JyotiVerma_44">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">164008.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_JyotiVerma_45">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">126268.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Anoop_Krishnan">
+    <cccm:fullName>Anoop Krishnan</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AnoopKrishnan_58">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">118191.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_6">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10203.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9488.79</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Abhishek_Bhatia">
+        <cccm:fullName>Abhishek Bhatia</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_AbhishekBhatia_22"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#PayPal"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_2"/>
+  </cccm:Remittance>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_4">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6568.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5842.61</cccm:amountReceived>
+    <cccm:initiatedBy rdf:resource="http://www.semanticweb.org/cccm#Cust_Ashok_Patil"/>
+    <cccm:processedBy>
+      <cccm:Bank rdf:about="http://www.semanticweb.org/cccm#Axis_Bank">
+        <cccm:bankName>Axis Bank</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+      </cccm:Bank>
+    </cccm:processedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_9"/>
+  </cccm:Transaction>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#amountReceived">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+  </owl:DatatypeProperty>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_003">
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Bob_Jones">
+        <cccm:fullName>Bob Jones</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#USA"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_Bob_Jones"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200.00</cccm:amountReceived>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Chase"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_USD_USD"/>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_8">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">42759.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">38505.36</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Pranav_Malhotra">
+        <cccm:fullName>Pranav Malhotra</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_PranavMalhotra_23"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_1"/>
+  </cccm:Transaction>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Anand_Pillai">
+    <cccm:fullName>Anand Pillai</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AnandPillai_25">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">89559.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_15">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35800.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32124.7</cccm:amountReceived>
+    <cccm:initiatedBy rdf:resource="http://www.semanticweb.org/cccm#Alice_Wonder"/>
+    <cccm:processedBy>
+      <cccm:Bank rdf:about="http://www.semanticweb.org/cccm#Kotak_Bank">
+        <cccm:bankName>Kotak Bank</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+      </cccm:Bank>
+    </cccm:processedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_3">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.93</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Divya_Reddy">
+    <cccm:fullName>Divya Reddy</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_DivyaReddy_42">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">54589.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_3">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">263431.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">244990.83</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Ishita_Sharma">
+        <cccm:fullName>Ishita Sharma</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_IshitaSharma_40"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_5"/>
+  </cccm:Remittance>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Krishna_Iyer">
+    <cccm:fullName>Krishna Iyer</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_KrishnaIyer_5">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72683.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#rateTarget">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Rate"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Currency"/>
+  </owl:ObjectProperty>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_8">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">265787.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">247181.91</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Yash_Agarwal">
+        <cccm:fullName>Yash Agarwal</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_YashAgarwal_19"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_YashAgarwal_20"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_1"/>
+  </cccm:Remittance>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#rateSource">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Rate"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Currency"/>
+  </owl:ObjectProperty>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Ravi_Shankar">
+    <cccm:fullName>Ravi Shankar</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RaviShankar_62">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29536.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Malini_Iyer">
+    <cccm:fullName>Malini Iyer</cccm:fullName>
+    <cccm:basedIn>
+      <cccm:Country rdf:about="http://www.semanticweb.org/cccm#UK">
+        <cccm:countryName>United Kingdom</cccm:countryName>
+        <cccm:usesCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+      </cccm:Country>
+    </cccm:basedIn>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_MaliniIyer_83">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">114617.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Country rdf:about="http://www.semanticweb.org/cccm#EU_Region">
+    <cccm:countryName>European Union</cccm:countryName>
+    <cccm:usesCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+  </cccm:Country>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Shruti_Joshi">
+    <cccm:fullName>Shruti Joshi</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ShrutiJoshi_29">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">166411.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#balance">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Account"/>
+  </owl:DatatypeProperty>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Rekha_Sharma">
+    <cccm:fullName>Rekha Sharma</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RekhaSharma_84">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">59454.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#SME_Company">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#Company"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#status">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Status"/>
+  </owl:DatatypeProperty>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_20">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21163.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19428.19</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Bhavana_Reddy">
+        <cccm:fullName>Bhavana Reddy</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_BhavanaReddy_68"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_BhavanaReddy_69"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_8"/>
+  </cccm:Transaction>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#usesCurrency">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Country"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Currency"/>
+  </owl:ObjectProperty>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_7">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">234979.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">226738.04</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Rehan_Sheikh">
+        <cccm:fullName>Rehan Sheikh</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_RehanSheikh_78"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_RehanSheikh_79"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_3"/>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_22">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">71655.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68141.13</cccm:amountReceived>
+    <cccm:initiatedBy rdf:resource="http://www.semanticweb.org/cccm#Cust_Abhishek_Bhatia"/>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate>
+      <cccm:Rate rdf:about="http://www.semanticweb.org/cccm#Rate_extra_4">
+        <cccm:rateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.936</cccm:rateValue>
+        <cccm:rateSource rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+        <cccm:rateTarget rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+      </cccm:Rate>
+    </cccm:appliedRate>
+  </cccm:Transaction>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Aarav_Sharma">
+    <cccm:fullName>Aarav Sharma</cccm:fullName>
+    <cccm:basedIn>
+      <cccm:Country rdf:about="http://www.semanticweb.org/cccm#USA">
+        <cccm:countryName>United States</cccm:countryName>
+        <cccm:usesCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+      </cccm:Country>
+    </cccm:basedIn>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AaravSharma_1">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">115937.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AaravSharma_2">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3301.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_9">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62944.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60775.37</cccm:amountReceived>
+    <cccm:initiatedBy rdf:resource="http://www.semanticweb.org/cccm#Cust_Siddharth_Nair"/>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_USD_INR"/>
+  </cccm:Transaction>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_007">
+    <rdf:type rdf:resource="http://www.semanticweb.org/cccm#HighValueTransaction"/>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Tanaka_San">
+        <cccm:fullName>Tanaka San</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#Japan"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_Tanaka_San"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90.00</cccm:amountReceived>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Wise"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+  </cccm:Transaction>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_10">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">476647.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">443281.71</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Rahul_Khanna">
+        <cccm:fullName>Rahul Khanna</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_RahulKhanna_12"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_5"/>
+  </cccm:Remittance>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Manish_Verma">
+    <cccm:fullName>Manish Verma</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ManishVerma_9">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26544.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#appliedRate">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Rate"/>
+  </owl:ObjectProperty>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Swati_Deshmukh">
+    <cccm:fullName>Swati Deshmukh</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SwatiDeshmukh_47">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">115281.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SwatiDeshmukh_48">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">61689.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_3">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">225458.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">215738.24</cccm:amountReceived>
+    <cccm:initiatedBy rdf:resource="http://www.semanticweb.org/cccm#Cust_Imran_Ali"/>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Failed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_5"/>
+  </cccm:Transaction>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#processedBy">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Institution"/>
+  </owl:ObjectProperty>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_005">
+    <rdf:type rdf:resource="http://www.semanticweb.org/cccm#LowValueTransaction"/>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#John_Smith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cccm#CorporateCustomer"/>
+        <cccm:fullName>John Smith</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#USA"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_John_Smith"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">49.00</cccm:amountReceived>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#PayPal"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_GBP_EUR"/>
+  </cccm:Transaction>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_9">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">264492.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">245977.56</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Lavanya_Iyer">
+        <cccm:fullName>Lavanya Iyer</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_LavanyaIyer_46"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_8"/>
+  </cccm:Remittance>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_10">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53054.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47225.42</cccm:amountReceived>
+    <cccm:initiatedBy rdf:resource="http://www.semanticweb.org/cccm#Cust_Rahul_Khanna"/>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Barclays"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Failed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_9"/>
+  </cccm:Transaction>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Harsh_Jain">
+    <cccm:fullName>Harsh Jain</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_HarshJain_21">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56742.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_17">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">76415.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">73001.85</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Pankaj_Tripathi">
+        <cccm:fullName>Pankaj Tripathi</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_PankajTripathi_88"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_PankajTripathi_89"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#HSBC"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_5"/>
+  </cccm:Transaction>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#toCurrency">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Currency"/>
+  </owl:ObjectProperty>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Sunil_Chawla">
+    <cccm:fullName>Sunil Chawla</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SunilChawla_92">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">182110.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Leela_Krishnan">
+    <cccm:fullName>Leela Krishnan</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_LeelaKrishnan_104">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">195964.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_LeelaKrishnan_105">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12677.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_4">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">247393.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">230075.49</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Kunal_Desai">
+        <cccm:fullName>Kunal Desai</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_KunalDesai_13"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_9"/>
+  </cccm:Remittance>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Nikhil_Menon">
+    <cccm:fullName>Nikhil Menon</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_NikhilMenon_16">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37967.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#bankName">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Institution"/>
+  </owl:DatatypeProperty>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_1">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120631.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">112186.83</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Nisha_Bhatia">
+        <cccm:fullName>Nisha Bhatia</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_NishaBhatia_34"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#PayPal"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Pending"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_extra_8"/>
+  </cccm:Remittance>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#initiatedBy">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Customer"/>
+  </owl:ObjectProperty>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Sakshi_Singh">
+    <cccm:fullName>Sakshi Singh</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SakshiSingh_41">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26649.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#symbol">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Currency"/>
+  </owl:DatatypeProperty>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Neha_Gupta">
+    <cccm:fullName>Neha Gupta</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_NehaGupta_39">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62258.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Gayathri_Menon">
+    <cccm:fullName>Gayathri Menon</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#USA"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_GayathriMenon_66">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">99515.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_GayathriMenon_67">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">116706.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Tanvi_Shah">
+    <cccm:fullName>Tanvi Shah</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_TanviShah_50">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">46167.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_TanviShah_51">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">147245.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Radhika_Rao">
+    <cccm:fullName>Radhika Rao</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RadhikaRao_35">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">139436.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RadhikaRao_36">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">73780.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#fullName">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Customer"/>
+  </owl:DatatypeProperty>
+  <cccm:Remittance rdf:about="http://www.semanticweb.org/cccm#Remit_extra_5">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">354597.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">329775.21</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Vivaan_Patel">
+        <cccm:fullName>Vivaan Patel</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_VivaanPatel_3"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#USD"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Failed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_USD_INR"/>
+  </cccm:Remittance>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Rohan_Mehta">
+    <cccm:fullName>Rohan Mehta</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RohanMehta_6">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">98882.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Rajesh_Kumar">
+    <cccm:fullName>Rajesh Kumar</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RajeshKumar_85">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">121328.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RajeshKumar_86">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">136398.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Chandrima_Sen">
+    <cccm:fullName>Chandrima Sen</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ChandrimaSen_72">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21032.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Arjun_Reddy">
+    <cccm:fullName>Arjun Reddy</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ArjunReddy_7">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">67740.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ArjunReddy_8">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127304.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Ritesh_Yadav">
+    <cccm:fullName>Ritesh Yadav</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RiteshYadav_59">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">83387.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Aditya_Rao">
+    <cccm:fullName>Aditya Rao</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AdityaRao_4">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">97913.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Ayesha_Mirza">
+    <cccm:fullName>Ayesha Mirza</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AyeshaMirza_77">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51760.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#fromCurrency">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Currency"/>
+  </owl:ObjectProperty>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Madhav_Menon">
+    <cccm:fullName>Madhav Menon</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_MadhavMenon_95">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">118908.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_MadhavMenon_96">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">113304.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Gaurav_Sinha">
+    <cccm:fullName>Gaurav Sinha</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#UK"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_GauravSinha_60">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">189745.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_GauravSinha_61">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">81057.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Vikram_Singh">
+    <cccm:fullName>Vikram Singh</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_VikramSingh_87">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15831.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Monika_Jain">
+    <cccm:fullName>Monika Jain</cccm:fullName>
+    <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+    <cccm:hasAccount>
+      <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_MonikaJain_70">
+        <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62311.0</cccm:balance>
+        <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+      </cccm:Account>
+    </cccm:hasAccount>
+  </cccm:Customer>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#basedIn">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Country"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#amountSent">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cccm#hasAccount">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Customer"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/cccm#Account"/>
+  </owl:ObjectProperty>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_006">
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Priya_Sharma">
+        <cccm:fullName>Priya Sharma</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#Acc_Priya_Sharma"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#INR"/>
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500.00</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480.00</cccm:amountReceived>
+    <cccm:processedBy>
+      <cccm:Bank rdf:about="http://www.semanticweb.org/cccm#SBI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cccm#GovernmentInstitution"/>
+        <cccm:bankName>State Bank of India</cccm:bankName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+      </cccm:Bank>
+    </cccm:processedBy>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Failed"/>
+  </cccm:Transaction>
+  <cccm:Country rdf:about="http://www.semanticweb.org/cccm#Australia">
+    <cccm:countryName>Australia</cccm:countryName>
+    <cccm:usesCurrency rdf:resource="http://www.semanticweb.org/cccm#AUD"/>
+  </cccm:Country>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cccm#countryName">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/cccm#Country"/>
+  </owl:DatatypeProperty>
+  <cccm:Transaction rdf:about="http://www.semanticweb.org/cccm#Txn_extra_13">
+    <cccm:amountSent rdf:datatype="http://www.w3.org/2001/XMLSchema#double">162880.0</cccm:amountSent>
+    <cccm:amountReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#double">145021.57</cccm:amountReceived>
+    <cccm:initiatedBy>
+      <cccm:Customer rdf:about="http://www.semanticweb.org/cccm#Cust_Meera_Krishnan">
+        <cccm:fullName>Meera Krishnan</cccm:fullName>
+        <cccm:basedIn rdf:resource="http://www.semanticweb.org/cccm#India"/>
+        <cccm:hasAccount rdf:resource="http://www.semanticweb.org/cccm#ACC_MeeraKrishnan_28"/>
+      </cccm:Customer>
+    </cccm:initiatedBy>
+    <cccm:processedBy rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+    <cccm:fromCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:toCurrency rdf:resource="http://www.semanticweb.org/cccm#GBP"/>
+    <cccm:hasStatus rdf:resource="http://www.semanticweb.org/cccm#Status_Completed"/>
+    <cccm:appliedRate rdf:resource="http://www.semanticweb.org/cccm#Rate_USD_USD"/>
+  </cccm:Transaction>
+  <owl:Ontology rdf:about="http://www.semanticweb.org/cccm"/>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_BhavanaReddy_68">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51627.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_Bob_Jones">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50000.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Chase"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#DigitalWallet">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#FinTech"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#HighValueTransaction">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+  </owl:Class>
+  <cccm:Country rdf:about="http://www.semanticweb.org/cccm#Germany">
+    <cccm:countryName>Germany</cccm:countryName>
+    <cccm:usesCurrency rdf:resource="http://www.semanticweb.org/cccm#EUR"/>
+  </cccm:Country>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_PoojaMishra_38">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14169.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_IshitaSharma_40">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">196538.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_VivaanPatel_3">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35651.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_John_Smith">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Chase"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_HarithaNair_64">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26878.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_YashAgarwal_20">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">117787.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_Priya_Sharma">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50000.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AnanyaKapoor_27">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">183515.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_VeenaRao_71">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">192900.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_NishaBhatia_34">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">135599.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_Alice_Wonder_2">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50000.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Barclays"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_PankajTripathi_89">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17178.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#GovernmentInstitution">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#Institution"/>
+  </owl:Class>
+  <cccm:Country rdf:about="http://www.semanticweb.org/cccm#Japan">
+    <cccm:countryName>Japan</cccm:countryName>
+    <cccm:usesCurrency rdf:resource="http://www.semanticweb.org/cccm#JPY"/>
+  </cccm:Country>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_HarithaNair_65">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">139130.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#CorporateCustomer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#Customer"/>
+  </owl:Class>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RahulKhanna_12">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119791.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ImranAli_75">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33246.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AditiKulkarni_33">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">76695.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_PriyaNair_26">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">181447.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SiddharthNair_10">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40804.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_MeeraKrishnan_28">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">162816.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ZoyaAnsari_76">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50080.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_KunalDesai_13">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184754.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AshokPatil_98">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160760.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_KavyaMenon_30">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86834.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_PankajTripathi_88">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184154.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#ICICI_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_PranavMalhotra_23">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5948.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_KarthikShetty_24">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">99012.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_KavyaMenon_31">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58405.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_LavanyaIyer_46">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29953.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_KiranDesai_97">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180398.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ArmaanQureshi_81">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">96430.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AshokPatil_99">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">107195.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RehanSheikh_79">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65111.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ArmaanQureshi_80">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21832.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_Amit_Patel_2">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Company"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Country"/>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_YashAgarwal_19">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">81278.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Currency"/>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_Amit_Patel_1">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HDFC"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_ImranAli_74">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">168093.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Bank">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#Institution"/>
+  </owl:Class>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_PoojaMishra_37">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">158513.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#SBI"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_Alice_Wonder_1">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Barclays"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Account"/>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AditiKulkarni_32">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">167331.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Kotak_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_Karl_German">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Wise"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SimranKaur_49">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">117682.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_Emma_Watson">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#HSBC"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Rate"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#LowValueTransaction">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+  </owl:Class>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_SiddharthNair_11">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31957.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_BhavanaReddy_69">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16806.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#PhonePe"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_RehanSheikh_78">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19003.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Razorpay"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Transaction"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Status"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#ForexExchange">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#FinTech"/>
+  </owl:Class>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_AbhishekBhatia_22">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">189905.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Axis_Bank"/>
+  </cccm:Account>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#ACC_VarunKapoor_14">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#double">193787.0</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Paytm"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Institution"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Remittance">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#Transaction"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#PaymentGateway">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#FinTech"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#FinTech">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cccm#Institution"/>
+  </owl:Class>
+  <cccm:Account rdf:about="http://www.semanticweb.org/cccm#Acc_Tanaka_San">
+    <cccm:balance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.00</cccm:balance>
+    <cccm:heldAt rdf:resource="http://www.semanticweb.org/cccm#Wise"/>
+  </cccm:Account>
+  <owl:Class rdf:about="http://www.semanticweb.org/cccm#Customer"/>
+</rdf:RDF>
